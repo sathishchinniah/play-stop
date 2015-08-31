@@ -14,6 +14,12 @@
 		B8EE0F1E1B9225EF0080F0EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EE0F1D1B9225EF0080F0EF /* Images.xcassets */; };
 		B8EE0F211B9225EF0080F0EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EE0F1F1B9225EF0080F0EF /* LaunchScreen.xib */; };
 		B8EE0F2D1B9225EF0080F0EF /* stopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EE0F2C1B9225EF0080F0EF /* stopTests.m */; };
+		B8EE0F371B9225EF0080F0EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EE0F361B9225EF0080F0EF /* CoreGraphics.framework */; };
+		B8EE0F391B9225EF0080F0EF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EE0F381B9225EF0080F0EF /* MediaPlayer.framework */; };
+		B8EE0F3B1B9225EF0080F0EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EE0F3A1B9225EF0080F0EF /* Foundation.framework */; };
+		B8EE0F3D1B9225EF0080F0EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EE0F3C1B9225EF0080F0EF /* UIKit.framework */; };
+		B8EE0F3F1B9225EF0080F0EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EE0F3E1B9225EF0080F0EF /* AVFoundation.framework */; };
+		B8EE0F411B9225EF0080F0EF /* (ABCD)_-_Sadda_Dil_Vi_Tu_(Ga_Ga_Ga_Ganpati)_Official_New_HD_Full_Song_V.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8EE0F401B9225EF0080F0EF /* (ABCD)_-_Sadda_Dil_Vi_Tu_(Ga_Ga_Ga_Ganpati)_Official_New_HD_Full_Song_V.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		B8EE0F261B9225EF0080F0EF /* stopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EE0F2B1B9225EF0080F0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8EE0F2C1B9225EF0080F0EF /* stopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stopTests.m; sourceTree = "<group>"; };
+		B8EE0F361B9225EF0080F0EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8EE0F381B9225EF0080F0EF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B8EE0F3A1B9225EF0080F0EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8EE0F3C1B9225EF0080F0EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8EE0F3E1B9225EF0080F0EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B8EE0F401B9225EF0080F0EF /* (ABCD)_-_Sadda_Dil_Vi_Tu_(Ga_Ga_Ga_Ganpati)_Official_New_HD_Full_Song_V.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "(ABCD)_-_Sadda_Dil_Vi_Tu_(Ga_Ga_Ga_Ganpati)_Official_New_HD_Full_Song_V.mp3"; path = "stop.xcodeproj/../../../(ABCD)_-_Sadda_Dil_Vi_Tu_(Ga_Ga_Ga_Ganpati)_Official_New_HD_Full_Song_V.mp3"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EE0F3F1B9225EF0080F0EF /* AVFoundation.framework in Frameworks */,
+				B8EE0F3D1B9225EF0080F0EF /* UIKit.framework in Frameworks */,
+				B8EE0F3B1B9225EF0080F0EF /* Foundation.framework in Frameworks */,
+				B8EE0F391B9225EF0080F0EF /* MediaPlayer.framework in Frameworks */,
+				B8EE0F371B9225EF0080F0EF /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,11 @@
 		B8EE0F041B9225EF0080F0EF = {
 			isa = PBXGroup;
 			children = (
+				B8EE0F3E1B9225EF0080F0EF /* AVFoundation.framework */,
+				B8EE0F3C1B9225EF0080F0EF /* UIKit.framework */,
+				B8EE0F3A1B9225EF0080F0EF /* Foundation.framework */,
+				B8EE0F381B9225EF0080F0EF /* MediaPlayer.framework */,
+				B8EE0F361B9225EF0080F0EF /* CoreGraphics.framework */,
 				B8EE0F0F1B9225EF0080F0EF /* stop */,
 				B8EE0F291B9225EF0080F0EF /* stopTests */,
 				B8EE0F0E1B9225EF0080F0EF /* Products */,
@@ -88,6 +110,7 @@
 				B8EE0F1A1B9225EF0080F0EF /* Main.storyboard */,
 				B8EE0F1D1B9225EF0080F0EF /* Images.xcassets */,
 				B8EE0F1F1B9225EF0080F0EF /* LaunchScreen.xib */,
+				B8EE0F401B9225EF0080F0EF /* (ABCD)_-_Sadda_Dil_Vi_Tu_(Ga_Ga_Ga_Ganpati)_Official_New_HD_Full_Song_V.mp3 */,
 				B8EE0F101B9225EF0080F0EF /* Supporting Files */,
 			);
 			path = stop;
@@ -199,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EE0F411B9225EF0080F0EF /* (ABCD)_-_Sadda_Dil_Vi_Tu_(Ga_Ga_Ga_Ganpati)_Official_New_HD_Full_Song_V.mp3 in Resources */,
 				B8EE0F1C1B9225EF0080F0EF /* Main.storyboard in Resources */,
 				B8EE0F211B9225EF0080F0EF /* LaunchScreen.xib in Resources */,
 				B8EE0F1E1B9225EF0080F0EF /* Images.xcassets in Resources */,
